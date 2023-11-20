@@ -1,4 +1,9 @@
 class Subscription < ApplicationRecord
-  has_many :subscriptions
-  has_many :teas, through: :subscriptions
+  belongs_to :customer
+  belongs_to :tea
+
+  validates_presence_of :title
+  validates_presence_of :price
+  validates_presence_of :status
+  validates_presence_of :frequency
 end
