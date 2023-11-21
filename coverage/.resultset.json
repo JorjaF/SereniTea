@@ -561,17 +561,6 @@
           null
         ]
       },
-      "/Users/jorjafleming/4mod/SereniTea/spec/requests/teas_spec.rb": {
-        "lines": [
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
       "/Users/jorjafleming/4mod/SereniTea/app/controllers/customers_controller.rb": {
         "lines": [
           1,
@@ -584,32 +573,6 @@
           1,
           null,
           1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
           null,
           null,
           null,
@@ -680,6 +643,6 @@
         ]
       }
     },
-    "timestamp": 1700531395
+    "timestamp": 1700531791
   }
 }

@@ -14,7 +14,7 @@
       <img src="./assets/0.12.3/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" class="hide">
-      <div class="timestamp">Generated <abbr class="timeago" title="2023-11-20T18:49:55-07:00">2023-11-20T18:49:55-07:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2023-11-20T18:56:32-07:00">2023-11-20T18:56:32-07:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -39,7 +39,7 @@
   <a name="AllFiles"></a>
 
   <div>
-    <b>24</b> files in total.
+    <b>23</b> files in total.
   </div>
 
   <div class="t-line-summary">
@@ -84,7 +84,7 @@
           <tr class="t-file">
             <td class="strong t-file__name"><a href="#dedbbcd7d9818d6823f00db4acd9970e4356c533" class="src_link" title="app/controllers/customers_controller.rb">app/controllers/customers_controller.rb</a></td>
             <td class="yellow strong cell--number t-file__coverage">85.71 %</td>
-            <td class="cell--number">53</td>
+            <td class="cell--number">27</td>
             <td class="cell--number">14</td>
             <td class="cell--number">12</td>
             <td class="cell--number">2</td>
@@ -309,17 +309,6 @@
             <td class="cell--number">38</td>
             <td class="cell--number">0</td>
             <td class="cell--number">1.18</td>
-            
-          </tr>
-        
-          <tr class="t-file">
-            <td class="strong t-file__name"><a href="#40845c0e5e7d21ed57b286e7d19e01e19b91662d" class="src_link" title="spec/requests/teas_spec.rb">spec/requests/teas_spec.rb</a></td>
-            <td class="green strong cell--number t-file__coverage">100.00 %</td>
-            <td class="cell--number">7</td>
-            <td class="cell--number">0</td>
-            <td class="cell--number">0</td>
-            <td class="cell--number">0</td>
-            <td class="cell--number">0.00</td>
             
           </tr>
         
@@ -574,293 +563,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="14">
-            
-            
-
-            
-
-            <code class="ruby">  # # POST /customers/:id/subscribe</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="15">
-            
-            
-
-            
-
-            <code class="ruby">  # def subscribe</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="16">
-            
-            
-
-            
-
-            <code class="ruby">  #   @customer = Customer.find(params[:id])</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="17">
-            
-            
-
-            
-
-            <code class="ruby">  #   @subscription = @customer.subscriptions.build(subscription_params)</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="18">
-            
-            
-
-            
-
-            <code class="ruby"></code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="19">
-            
-            
-
-            
-
-            <code class="ruby">  #   if @subscription.save</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="20">
-            
-            
-
-            
-
-            <code class="ruby">  #     render json: @subscription, status: :created</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="21">
-            
-            
-
-            
-
-            <code class="ruby">  #   else</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="22">
-            
-            
-
-            
-
-            <code class="ruby">  #     render json: { errors: @subscription.errors.full_messages }, status: :unprocessable_entity</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="23">
-            
-            
-
-            
-
-            <code class="ruby">  #   end</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="24">
-            
-            
-
-            
-
-            <code class="ruby">  # end</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="25">
-            
-            
-
-            
-
-            <code class="ruby"></code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="26">
-            
-            
-
-            
-
-            <code class="ruby">  # # DELETE /customers/:id/cancel_subscription</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="27">
-            
-            
-
-            
-
-            <code class="ruby">  # def cancel_subscription</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="28">
-            
-            
-
-            
-
-            <code class="ruby">  #   @subscription = @customer.subscriptions.find(params[:subscription_id])</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="29">
-            
-            
-
-            
-
-            <code class="ruby">  #   @subscription.update(status: &#39;cancelled&#39;)</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="30">
-            
-            
-
-            
-
-            <code class="ruby"></code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="31">
-            
-            
-
-            
-
-            <code class="ruby">  #   head :no_content</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="32">
-            
-            
-
-            
-
-            <code class="ruby">  # end</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="33">
-            
-            
-
-            
-
-            <code class="ruby"></code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="34">
-            
-            
-
-            
-
-            <code class="ruby">  # # GET /customers/:id/subscriptions</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="35">
-            
-            
-
-            
-
-            <code class="ruby">  # def subscriptions</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="36">
-            
-            
-
-            
-
-            <code class="ruby">  #   @subscriptions = @customer.subscriptions</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="37">
-            
-            
-
-            
-
-            <code class="ruby">  #   render json: @subscriptions</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="38">
-            
-            
-
-            
-
-            <code class="ruby">  # end</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="39">
-            
-            
-
-            
-
-            <code class="ruby"></code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="40">
+          <li class="covered" data-hits="1" data-linenumber="14">
             <span class="hits">1</span>
             
 
@@ -871,7 +574,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="41">
+          <li class="never" data-hits="" data-linenumber="15">
             
             
 
@@ -882,7 +585,7 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="42">
+          <li class="covered" data-hits="1" data-linenumber="16">
             <span class="hits">1</span>
             
 
@@ -893,7 +596,7 @@
         </div>
       
         <div>
-          <li class="missed" data-hits="0" data-linenumber="43">
+          <li class="missed" data-hits="0" data-linenumber="17">
             
             
 
@@ -904,7 +607,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="44">
+          <li class="never" data-hits="" data-linenumber="18">
             
             
 
@@ -915,7 +618,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="45">
+          <li class="never" data-hits="" data-linenumber="19">
             
             
 
@@ -926,7 +629,7 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="46">
+          <li class="covered" data-hits="1" data-linenumber="20">
             <span class="hits">1</span>
             
 
@@ -937,7 +640,7 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="2" data-linenumber="47">
+          <li class="covered" data-hits="2" data-linenumber="21">
             <span class="hits">2</span>
             
 
@@ -948,7 +651,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="48">
+          <li class="never" data-hits="" data-linenumber="22">
             
             
 
@@ -959,7 +662,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="49">
+          <li class="never" data-hits="" data-linenumber="23">
             
             
 
@@ -970,7 +673,7 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="50">
+          <li class="covered" data-hits="1" data-linenumber="24">
             <span class="hits">1</span>
             
 
@@ -981,7 +684,7 @@
         </div>
       
         <div>
-          <li class="missed" data-hits="0" data-linenumber="51">
+          <li class="missed" data-hits="0" data-linenumber="25">
             
             
 
@@ -992,7 +695,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="52">
+          <li class="never" data-hits="" data-linenumber="26">
             
             
 
@@ -1003,7 +706,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="53">
+          <li class="never" data-hits="" data-linenumber="27">
             
             
 
@@ -1315,7 +1018,7 @@
 
             
 
-            <code class="ruby">    subscription.status = &#39;cancelled&#39;</code>
+            <code class="ruby">    subscription.status = &quot;cancelled&quot;</code>
           </li>
         </div>
       
@@ -1392,7 +1095,7 @@
 
             
 
-            <code class="ruby">    rescue ActiveRecord::RecordNotFound</code>
+            <code class="ruby">  rescue ActiveRecord::RecordNotFound</code>
           </li>
         </div>
       
@@ -1403,7 +1106,7 @@
 
             
 
-            <code class="ruby">      render json: { errors: &quot;Subscription not found&quot; }, status: :not_found</code>
+            <code class="ruby">    render json: { errors: &quot;Subscription not found&quot; }, status: :not_found</code>
           </li>
         </div>
       
@@ -4374,7 +4077,7 @@
 
             
 
-            <code class="ruby">require &#39;rails_helper&#39;</code>
+            <code class="ruby">require &quot;rails_helper&quot;</code>
           </li>
         </div>
       
@@ -4407,7 +4110,7 @@
 
             
 
-            <code class="ruby">  describe &#39;relationships&#39; do</code>
+            <code class="ruby">  describe &quot;relationships&quot; do</code>
           </li>
         </div>
       
@@ -4462,7 +4165,7 @@
 
             
 
-            <code class="ruby">  describe &#39;validations&#39; do</code>
+            <code class="ruby">  describe &quot;validations&quot; do</code>
           </li>
         </div>
       
@@ -6305,114 +6008,6 @@
             
 
             <code class="ruby">end</code>
-          </li>
-        </div>
-      
-    </ol>
-  </pre>
-</div>
-
-      
-        <div class="source_table" id="40845c0e5e7d21ed57b286e7d19e01e19b91662d">
-  <div class="header">
-    <h3>spec/requests/teas_spec.rb</h3>
-    <h4>
-      <span class="green">
-  100.0%
-</span>
-
-      lines covered
-    </h4>
-
-    
-
-    <div class="t-line-summary">
-      <b>0</b> relevant lines.
-      <span class="green"><b>0</b> lines covered</span> and
-      <span class="red"><b>0</b> lines missed.</span>
-    </div>
-
-    
-
-  </div>
-
-  <pre>
-    <ol>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="1">
-            
-            
-
-            
-
-            <code class="ruby"># require &#39;rails_helper&#39;</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="2">
-            
-            
-
-            
-
-            <code class="ruby"></code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="3">
-            
-            
-
-            
-
-            <code class="ruby"># RSpec.describe &quot;Teas&quot;, type: :request do</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="4">
-            
-            
-
-            
-
-            <code class="ruby">#   describe &quot;GET /index&quot; do</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="5">
-            
-            
-
-            
-
-            <code class="ruby">#     pending &quot;add some examples (or delete) #{__FILE__}&quot;</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="6">
-            
-            
-
-            
-
-            <code class="ruby">#   end</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="7">
-            
-            
-
-            
-
-            <code class="ruby"># end</code>
           </li>
         </div>
       

@@ -11,32 +11,6 @@ class CustomersController < ApplicationController
     end
   end
 
-  # # POST /customers/:id/subscribe
-  # def subscribe
-  #   @customer = Customer.find(params[:id])
-  #   @subscription = @customer.subscriptions.build(subscription_params)
-
-  #   if @subscription.save
-  #     render json: @subscription, status: :created
-  #   else
-  #     render json: { errors: @subscription.errors.full_messages }, status: :unprocessable_entity
-  #   end
-  # end
-
-  # # DELETE /customers/:id/cancel_subscription
-  # def cancel_subscription
-  #   @subscription = @customer.subscriptions.find(params[:subscription_id])
-  #   @subscription.update(status: 'cancelled')
-
-  #   head :no_content
-  # end
-
-  # # GET /customers/:id/subscriptions
-  # def subscriptions
-  #   @subscriptions = @customer.subscriptions
-  #   render json: @subscriptions
-  # end
-
   private
 
   def set_customer

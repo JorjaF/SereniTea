@@ -22,7 +22,7 @@ class SubscriptionsController < ApplicationController
 
   def destroy
     subscription = Subscription.find(params[:id])
-    subscription.status = 'cancelled'
+    subscription.status = "cancelled"
   
     if subscription.save
       render json: { status: :ok, message: "Subscription successfully cancelled" }
